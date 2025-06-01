@@ -173,6 +173,10 @@ header {
     background-color: #1DA1F2; /* Twitter blue */
 }
 
+.social-link.reddit:hover {
+    background-color: #FF4500; /* Reddit orange */
+}
+
 .social-link svg {
     width: 25px;
     height: 25px;
