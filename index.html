@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prof Korupt</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav>
+            <div class="logo">Prof<span>Korupt</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#platforms">Platforms</a></li>
+                <li><a href="#rules">Content Rules</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="https://youtube.com/@profkorupt" class="nav-sub" target="_blank">▶ Subscribe</a>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#home" class="mobile-link">Home</a>
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#videos" class="mobile-link">Videos</a>
+            <a href="#platforms" class="mobile-link">Platforms</a>
+            <a href="#rules" class="mobile-link">Content Rules</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+        </div>
+
+        <header id="home">
+            <div class="hero-bg-lines"></div>
+            <div class="hero-glow"></div>
+            <div class="hero-inner">
+                <div class="hero-badge">Full Stack Dev · CS Storyteller · Content Creator</div>
+                <h1 class="hero-title">
+                    Hi, I'm<br>
+                    <span class="green">Prof</span><br class="mobile-br"><span class="outline">Korupt</span>
+                </h1>
+                <p class="hero-desc">
+                    College & CS YouTuber. I make short, story-driven videos about what it's actually like studying computer science. Real talk, no fluff.
+                </p>
+                <div class="hero-actions">
+                    <a href="https://youtube.com/@profkorupt" class="btn-primary" target="_blank">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                        Watch on YouTube
+                    </a>
+                    <a href="mailto:profkorupt@gmail.com" class="btn-ghost">
+                        Get in Touch →
+                    </a>
+                </div>
+
+                <div class="social-row">
+                    <a href="https://github.com/604korupt" class="soc gh" title="GitHub" target="_blank">
+                        <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                    </a>
+                    <a href="https://youtube.com/@profkorupt" class="soc yt" title="YouTube" target="_blank">
+                        <svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                    </a>
+                    <a href="https://tiktok.com/@604korupt" class="soc tt" title="TikTok" target="_blank">
+                        <svg viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+                    </a>
+                    <a href="https://discord.gg/74MG59GkRh" class="soc discord" title="Discord" target="_blank">
+                        <svg viewBox="0 0 24 24"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+                    </a>
+                    <a href="https://twitter.com/profkorupt" class="soc tw" title="Twitter/X" target="_blank">
+                        <svg viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723 10.1 10.1 0 01-3.127 1.184 4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
+                    </a>
+                    <a href="https://www.reddit.com/user/604korupt/" class="soc rd" title="Reddit" target="_blank">
+                        <svg viewBox="0 0 24 24"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg>
+                    </a>
+                    <a href="mailto:profkorupt@gmail.com" class="soc em" title="Email">
+                        <svg viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <div class="stats-bar">
+            <div class="stats-inner">
+                <div class="stat-item">
+                    <span class="stat-num">10K</span>
+                    <span class="stat-label">YouTube Subscribers</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">YT</span>
+                    <span class="stat-label">@profkorupt</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">TT</span>
+                    <span class="stat-label">@604korupt</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">DC</span>
+                    <span class="stat-label">Join Discord</span>
+                </div>
+            </div>
+        </div>
+
+        <section id="about">
+            <div class="about-inner">
+                <div class="about-left">
+                    <div class="section-eyebrow">👤 About</div>
+                    <h2 class="section-title">Who is<br><span class="dim">Prof Korupt?</span></h2>
+                    <div class="about-bio">
+                        <p>
+                            <strong>Computer science content creator</strong> sharing real, unfiltered stories about college, coding, and everything that comes with it: the wins, the disasters, and everything in between.
+                        </p>
+                        <p>
+                            From brutal assignments to group project chaos, I break down what actually happens behind the scenes of studying CS, and what you learn from it.
+                        </p>
+                        <p>
+                            No polish, no pretending. Just what this path really looks like.
+                        </p>
+                    </div>
+                </div>
+                <div class="about-right">
+                    <div class="about-card">
+                        <div class="about-card-icon">💻</div>
+                        <div class="about-card-text">
+                            <strong>Full Stack Developer</strong>
+                            Builds projects that sometimes sneak into the videos.
+                        </div>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-card-icon">🎓</div>
+                        <div class="about-card-text">
+                            <strong>CS Storyteller</strong>
+                            Assignments, projects, semester experiences, documented warts and all. If it happened in CS, it's fair game for a video.
+                        </div>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-card-icon">🌱</div>
+                        <div class="about-card-text">
+                            <strong>Not Just a Developer</strong>
+                            Also plays violin, piano, tennis, and enjoys gaming. There's more to life than pull requests and deadlines.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="videos">
+            <div class="section-header">
+                <div class="section-eyebrow">▶ Content</div>
+                <h2 class="section-title">Featured <span class="dim">Videos</span></h2>
+            </div>
+
+            <div class="videos-grid">
+                <a href="https://www.youtube.com/watch?v=MIvvsqJAYh0" class="video-card featured" target="_blank">
+                    <div class="video-thumb" style="background: linear-gradient(135deg, #0a1a10, #122212);">
+                        <img src="https://img.youtube.com/vi/MIvvsqJAYh0/maxresdefault.jpg" alt="3 Years of College CS">
+                        <div class="play-btn">
+                            <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                        <span class="video-platform-badge badge-yt">YouTube</span>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-meta">
+                            <span class="video-category">Featured</span>
+                            <div class="video-dot"></div>
+                            <span class="video-views">College CS</span>
+                        </div>
+                        <div class="video-title">3 Years of College Computer Science in 3 Minutes</div>
+                        <p class="video-desc">Covering 3 years of college CS in 3 minutes. Real content from a real CS perspective.</p>
+                        <div class="video-cta">
+                            Watch on YouTube
+                            <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=AvYsiDlYfNw" class="video-card" target="_blank">
+                    <div class="video-thumb" style="background: linear-gradient(135deg, #1a0d0d, #2a1010);">
+                        <img src="https://img.youtube.com/vi/AvYsiDlYfNw/maxresdefault.jpg" alt="The Ultimate CS Group Project Disaster in 60 Seconds">
+                        <div class="play-btn">
+                            <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                        <span class="video-platform-badge badge-yt">YouTube</span>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-meta">
+                            <span class="video-category">College CS Life</span>
+                        </div>
+                        <div class="video-title">The Ultimate CS Group Project Disaster in 60 Seconds</div>
+                        <p class="video-desc">Every CS student's nightmare, captured in 60 seconds.</p>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=QwcRH6HYGB8" class="video-card" target="_blank">
+                    <div class="video-thumb" style="background: linear-gradient(135deg, #1a1000, #2a1a00);">
+                        <img src="https://img.youtube.com/vi/QwcRH6HYGB8/maxresdefault.jpg" alt="I Got Accused of Cheating in University">
+                        <div class="play-btn">
+                            <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                        <span class="video-platform-badge badge-yt">YouTube</span>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-meta">
+                            <span class="video-category">Story Time</span>
+                        </div>
+                        <div class="video-title">I Got Accused of Cheating in University…</div>
+                        <p class="video-desc">A personal story about one of the most stressful things that happened to me in college. No clickbait.</p>
+                    </div>
+                </a>
+
+                <a href="https://www.tiktok.com/@604korupt/video/7492881683465719070" class="video-card" target="_blank">
+                    <div class="video-thumb" style="background: linear-gradient(135deg, #050510, #0d0d1a);">
+                        <img src="https://img.youtube.com/vi/OVek2sK6VmA/maxresdefault.jpg" alt="CSU Schools Tier List in 60 Seconds">
+                        <div class="play-btn">
+                            <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                        <span class="video-platform-badge badge-tt">TikTok</span>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-meta">
+                            <span class="video-category">Tier List</span>
+                        </div>
+                        <div class="video-title">CSU Schools Tier List in 60 Seconds</div>
+                        <p class="video-desc">Ranking every CSU school: fast, opinionated, and probably controversial.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="see-more-row">
+                <a href="https://youtube.com/@profkorupt/videos" class="btn-primary" target="_blank">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                    See All Videos
+                </a>
+            </div>
+        </section>
+
+        <section id="platforms">
+            <div class="section-header">
+                <div class="section-eyebrow">📡 Find Me</div>
+                <h2 class="section-title">Where I <span class="dim">Create</span></h2>
+            </div>
+
+            <div class="platforms-grid">
+                <a href="https://youtube.com/@profkorupt" class="platform-card yt" target="_blank">
+                    <div class="plat-icon yt">
+                        <svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                    </div>
+                    <div class="plat-name">YouTube</div>
+                    <div class="plat-handle">@profkorupt</div>
+                    <p class="plat-desc">My main platform. I make longer-form videos about computer science, college life, and my experience as a developer. Real stories, lessons, and honest insights.</p>
+                </a>
+
+                <a href="https://tiktok.com/@604korupt" class="platform-card tt" target="_blank">
+                    <div class="plat-icon tt">
+                        <svg viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+                    </div>
+                    <div class="plat-name">TikTok</div>
+                    <div class="plat-handle">@604korupt</div>
+                    <p class="plat-desc">Mostly me talking about CS: quick thoughts, coding takes, and random college moments.</p>
+                </a>
+
+                <a href="https://discord.gg/74MG59GkRh" class="platform-card discord" target="_blank">
+                    <div class="plat-icon discord">
+                        <svg viewBox="0 0 24 24"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+                    </div>
+                    <div class="plat-name">Discord</div>
+                    <div class="plat-handle">Join the Community</div>
+                    <p class="plat-desc">Hang out, share ideas, get help, and vibe with the community!</p>
+                </a>
+            </div>
+        </section>
+
+        <section id="rules">
+            <div class="rules-inner">
+                <div class="rules-left">
+                    <div class="section-eyebrow">⚖️ Content Policy</div>
+                    <h2 class="section-title" style="margin-bottom: 0;">Content <span class="dim">Rules</span></h2>
+                    <p class="rules-intro">
+                        Reuploading content without permission directly hurts creators. It steals views, divides audiences, and takes credit for work that took real time and effort to produce. I'm all for sharing my content, just do it the right way.
+                    </p>
+                    <div class="rules-callout">
+                        <strong>Please do not reupload my content without permission.</strong> I put serious time into every video. Unauthorized reuploads hurt the channel and the community I'm building. If you love the content, share the original link, that's the best support you can give.
+                    </div>
+                </div>
+
+                <div class="rules-list">
+                    <div class="rule-item">
+                        <div class="rule-num">01</div>
+                        <div class="rule-text">
+                            <strong>Ask first.</strong> If you want to use my video, please <a href="mailto:profkorupt@gmail.com" style="color: var(--green); text-decoration:none;">contact me via email</a> for permission before doing anything with it.
+                        </div>
+                    </div>
+                    <div class="rule-item">
+                        <div class="rule-num">02</div>
+                        <div class="rule-text">
+                            <strong>Credit me clearly.</strong> If permission is granted, you must credit me in <em>both</em> the title and description of the video, not just a small mention buried at the end.
+                        </div>
+                    </div>
+                    <div class="rule-item">
+                        <div class="rule-num">03</div>
+                        <div class="rule-text">
+                            <span class="warn">No AI voiceovers or script recreation.</span> Please do not use an AI voiceover to repeat what I've said or recreate the script in any form. This is a hard no.
+                        </div>
+                    </div>
+                    <div class="rule-item">
+                        <div class="rule-num">04</div>
+                        <div class="rule-text">
+                            <span class="warn">Unauthorized reuploads will be removed.</span> If my video is reuploaded without permission and proper credit, I will request removal through YouTube's standard process.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="contact">
+            <div class="footer-inner">
+                <div class="footer-top">
+                    <div class="footer-brand">
+                        <span class="logo">Prof<span style="color:var(--text)">Korupt</span></span>
+                        <p>Full stack dev and content creator making story-driven videos about what it's actually like studying computer science.</p>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Navigate</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#videos">Featured Videos</a></li>
+                            <li><a href="#platforms">Platforms</a></li>
+                            <li><a href="#rules">Content Rules</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col footer-contact">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><a href="mailto:profkorupt@gmail.com">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"/></svg>
+                                profkorupt@gmail.com
+                            </a></li>
+                            <li><a href="https://youtube.com/@profkorupt" target="_blank">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                                YouTube Channel
+                            </a></li>
+                            <li><a href="https://github.com/604korupt" target="_blank">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                                GitHub
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <span class="footer-copy">© 2026 Prof Korupt. All rights reserved.</span>
+                    <div class="footer-soc">
+                        <a href="https://youtube.com/@profkorupt" class="soc yt" target="_blank"><svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+                        <a href="https://tiktok.com/@604korupt" class="soc tt" target="_blank"><svg viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg></a>
+                        <a href="https://github.com/604korupt" class="soc gh" target="_blank"><svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('open');
+            mobileMenu.classList.toggle('open');
+        });
+
+        // Close menu when a link is clicked
+        document.querySelectorAll('.mobile-link').forEach(link => {
+            link.addEventListener('click', () => {
+            hamburger.classList.remove('open');
+            mobileMenu.classList.remove('open');
+            });
+        });
+    </script>
+</html>
